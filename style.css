@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+html {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    box-shadow: 5px 0px 5px rgba(59, 59, 59, 0.4);
+}
+.header-infos {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+/* .navbar> li:hover {
+    cursor: pointer;
+    color: rgb(250, 77, 77);
+} */
+.hover {
+    cursor: crosshair;
+    color: rgb(250, 77, 77);
+}
+.navbar-buy {
+    display: flex;
+    gap: 10px;
+}
+.hero {
+    display: flex;
+    width: 100vw;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-info-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: start;
+    margin-left: 250px;
+}
+.hero-info-text h1 {
+    font-size: 50px;
+    color: rgb(250, 77, 77);
+}
+.hero-info-text h2 {
+    font-size: 30px;
+}
+.hero-info-text p {
+    padding-top: 10px;
+    font-size: 13px;
+}
+.hero-buttons {
+    padding-top: 10px;
+}
+.hero-buttons-style {
+    background: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.shop-now {
+    background-color: rgb(250, 77, 77);
+    color: white;
+}
+.shop-now:hover {
+    background-color: rgb(221, 44, 44);
+    transform: translateY(-3px);
+    transition: 0.8s;
+    color: white;
+}
+.view-more {
+    color: rgb(250, 77, 77);;
+}
+.hero-img {
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+}
+#banner-img {
+    width: 320px;
+    margin-left: 100px;
+}
+.test {
+    position: absolute;
+}
+.blob {
+    position: relative;
+    background-color: rgb(117, 117, 117);
+    opacity: 0.1;
+    height: 280px;
+    width: 290px;
+    left: 14%;
+    bottom: 315px;
+    border-radius: 85% 25% 74% 26% / 34% 44% 56% 66%;
+    z-index: -1;
+}
+.pop-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.page-link {
+    text-decoration: none;
+    font-style: none;
+    color: rgb(250, 77, 77);
+}
